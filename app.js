@@ -95,7 +95,6 @@ let isFavorite = false;
 while(numberOfGuesses > 0) {
   // iterate myFavoriteMusic to see if userMusicianGuess is inside, if it is set is favorite to true
   for (let music of myFavoriteMusic) {
-    console.log(music);
     if (userMusicianGuess.toLowerCase() === music.toLowerCase()) {
       isFavorite = true;
     }
